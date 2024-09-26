@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- 因为豆瓣接口采用了防盗链的原因，要想正常浏览网页，需要添加 -->
+    <meta name="referrer" content="never">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>static/favicon.ico">
+    <!-- 引入第三方样式 -->
+    <link rel="stylesheet" href="<%= BASE_URL %>static/css/bootstrap.css">
+    <script defer="defer" src="<%= BASE_URL %>static/js/jquery-3.7.1.js"></script>
+    <script defer="defer" src="<%= BASE_URL %>static/js/bootstrap.js"></script>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- 引入 Vue -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script> -->
+    <!-- 引入 Vue Router -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.6.5/vue-router.min.js"></script> -->
+    <!-- 引入 Element UI 样式 -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.15.6/theme-chalk/index.css"> -->
+    <!-- 引入 Element UI 组件库 -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.15.6/index.js"></script> -->
+
+    <!-- built files will be auto injected -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.14/vue.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue-router/3.6.5/vue-router.min.js"></script>
+    <!-- 引入element样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入element组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.5.0/echarts.min.js"></script> -->
+  </body>
+</html>
